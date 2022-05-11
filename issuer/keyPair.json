@@ -1,0 +1,6 @@
+{
+  "id": "did:web:https://issuer13.solidcommunity.net/#test",
+  "controller": "did:web:https://issuer13.solidcommunity.net/",
+  "privateKeyBase58": "85Wt6c1qRShPEDaZ1zPcifkoP3YR7iUX1xwDpknztyBz",
+  "publicKeyBase58": "taJDHbrZYEbQdHzFuD3VYKeyRCoP4AXU9hZx6AHsaThcPyASdVTxjqaVzHdR5XNVPoxwXGyjwSHHHkwwJe5bgZh6iAcv1WG2CYSAaM3BDZkhMDu8wQfxSHQNJnJDGVunPvV"
+}

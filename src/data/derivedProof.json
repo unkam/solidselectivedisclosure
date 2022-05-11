@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/citizenship/v1",
+    "https://w3id.org/security/bbs/v1"
+  ],
+  "id": "https://idunion.esatus.com/tx/IDunion_Test/domain/11573",
+  "type": [
+    "PermanentResidentCard",
+    "VerifiableCredential"
+  ],
+  "description": "FEDERAL REPUBLIC OF GERMANY IDENTITY CARD",
+  "identifier": "11573",
+  "name": "IDENTITY CARD",
+  "credentialSubject": {
+    "id": "did:web:https://holder13.solidcommunity.net/profile/card#me",
+    "type": [
+      "Person",
+      "PermanentResident"
+    ],
+    "birthDate": "1946-01-25",
+    "familyName": "DR.EH.DR. VON DREBENBUSCH-DALGOßEN",
+    "givenName": "HANS-GÜNTHER"
+  },
+  "expirationDate": "2029-11-30",
+  "issuanceDate": "2019-12-01",
+  "issuer": "did:web:https://issuer13.solidcommunity.net/profile/card#me",
+  "proof": {
+    "type": "BbsBlsSignatureProof2020",
+    "created": "2022-05-06T21:53:58Z",
+    "nonce": "iftecY4tvWeJq8EDE8mJ/We06nlNaog76ZV2ABrly3QUMUSGop/ameWqiggx7ivdNw0=",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "ABMH/7+XdL4XvOlSiLXjxsPmVh+FEu4wTE3DgtNFfPkC/OnNLi3yIKfgZmEeQYlXdSD5Y320VRNgR4tG+2aE7S7UfMa+oDCJVWWQTVMbP4fVCx6oMw2hAzBKKstqRzoxocxyzxaE9BdLWpNkEWCssOsFbidA2S6+jWL4wkMkU2GmYadKS7uiCWv6FD/jfqVWaRW9/ocAAAB0tkcePoTMiPN6lK0au5knaFQpd2oYf0dgaTGvtIINmeVZYgZeywtWYUlGa5dkkhVLAAAAAggdm3LkF2OP4xkmuGaEwy8xMc5m5YFLyzxLoX38pXSRT/zWarFVIxqN/6GYZUG/T99vYDkVtChAgl4UVrdriyGQZrex/cNQitYBj5r8c/KY2MKqChAxcEzfNcKQn3sBrP28lUn1NaRaWbZqOiJ6RWkAAAADTVA9dhrmXEwzX5/tNeWjANPDrlABikxSe2YDoc2dcs5uXzAXiYZKNWxYZa5y09+5e+03ugPseU5LmRNIuZ3OgQJooffIuFhfT4jpKSmTqh2RXp//Fb6mHDbtJ8So7zZb",
+    "verificationMethod": "did:web:https://issuer13.solidcommunity.net/#test"
+  }
+}

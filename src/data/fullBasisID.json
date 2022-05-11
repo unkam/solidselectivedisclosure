@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/citizenship/v1",
+    "https://w3id.org/security/bbs/v1"
+  ],
+  "id": "https://idunion.esatus.com/tx/IDunion_Test/domain/11573",
+  "type": ["VerifiableCredential", "PermanentResidentCard"],
+  "issuer": "webid:https://issuer13.solidcommunity.net/profile/card#me",
+  "identifier": "T02088FC1",
+  "name": "IDENTITY CARD",
+  "description": "FEDERAL REPUBLIC OF GERMANY IDENTITY CARD",
+  "issuanceDate": "2019-12-01",
+  "expirationDate": "2029-11-30",
+  "credentialSubject": {
+    "id": "webid:https://holder13.solidcommunity.net/profile/card#me",
+    "type": ["PermanentResident", "Person"],
+    "givenName": "HANS-GÜNTHER",
+    "familyName": "DR.EH.DR. VON DREBENBUSCH-DALGOßEN",
+    "gender": "Male",
+    "nationality": "DEUTSCH",
+    "height": "192 cm",
+    "birthPlace": "Bremerhaven",
+    "birthDate": "1946-01-25"
+  }
+}

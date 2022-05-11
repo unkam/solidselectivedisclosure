@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "results": [
+    {
+      "proof": {
+        "@context": "https://w3id.org/security/v2",
+        "type": "sec:BbsBlsSignature2020",
+        "created": "2022-04-01T08:16:28Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "rdu0Ou423e5JlUMQvyJPuNoyqOL0vTC69dNclfwIHCiBl0+Fj+JrdL8KPtrQMGNQBQDuQB8Ocr1+DgYEGgoxnUaTTdymxmyB9Z6lEjACIhYocqU+rnvyxKUkmAcZq0hp2NAoLDQPLn3KMEq6gm4Geg==",
+        "verificationMethod": "did:example:489398593#test"
+      },
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+@prefix : <#>.
+@prefix acl: <http://www.w3.org/ns/auth/acl#>.
+@prefix test: <./>.
+@prefix c: </profile/card#>.
+@prefix c0: <https://holder13.solidcommunity.net/profile/card#>.
+
+:ControlReadWrite
+    a acl:Authorization;
+    acl:accessTo test:;
+    acl:agent c:me;
+    acl:default test:;
+    acl:mode acl:Control, acl:Read, acl:Write.
+:Read
+    a acl:Authorization;
+    acl:accessTo test:;
+    acl:agent c0:me;
+    acl:default test:;
+    acl:mode acl:Read.
+@prefix holder: <https://holder13.solidcommunity.net/profile/card#>.
+
+:Read
+    a acl:Authorization;
+    acl:accessTo test:;
+    acl:agent holder:me;
+    acl:default test:;
+    acl:mode acl:Read.
