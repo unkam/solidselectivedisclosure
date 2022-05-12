@@ -4,7 +4,7 @@
   "description": "A proof of concept for selective disclosure using Verifiable Credentials with Solid",
   "main": "lib/index.js",
   "repository": "https://github.com/unkam/solidselectivedisclosure",
-  "author": "Mattr Limited",
+  "author": "unkam",
   "license": "MIT",
   "private": false,
   "scripts": {
