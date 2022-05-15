@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": "https://github.com/unkam/solidselectivedisclosure",
   "author": "unkam",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "private": false,
   "scripts": {
     "sign": "ts-node --files src/sign.ts",
